@@ -10,11 +10,11 @@ class Aspenx < Formula
   on_macos do
     on_arm do
       url "https://aspenx.dev/releases/0.9.0/aspenx-0.9.0-darwin-arm64.tar.gz"
-      sha256 "1771a98c65b97c6ca72eca85d773bf4588b322b6df278fae53a7ca832432aa1e"
+      sha256 "caec1c6e78c149e0d1a314082cac319b3fc440fcdd167729cf361c4e73df9bf7"
     end
     on_intel do
       url "https://aspenx.dev/releases/0.9.0/aspenx-0.9.0-darwin-amd64.tar.gz"
-      sha256 "85ed00f45f1de885733406d6d3aaa9dba96eb9cd9c35ae1efc9096cb5986bd53"
+      sha256 "52e06f8c2f794781fb92b105e1f56416f42a3871d88af74e398eb252723dfa71"
     end
   end
 
