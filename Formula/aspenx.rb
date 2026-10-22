@@ -5,16 +5,16 @@
 class Aspenx < Formula
   desc "Parallel feature workspaces for a Docker Compose monorepo"
   homepage "https://aspenx.dev"
-  version "0.9.0"
+  version "0.9.1"
 
   on_macos do
     on_arm do
-      url "https://aspenx.dev/releases/0.9.0/aspenx-0.9.0-darwin-arm64.tar.gz"
-      sha256 "caec1c6e78c149e0d1a314082cac319b3fc440fcdd167729cf361c4e73df9bf7"
+      url "https://aspenx.dev/releases/0.9.1/aspenx-0.9.1-darwin-arm64.tar.gz"
+      sha256 "ef85a7a04da8c0ae0dbeacdbec7f92677257f4f536de5a1b9a846045e3579238"
     end
     on_intel do
-      url "https://aspenx.dev/releases/0.9.0/aspenx-0.9.0-darwin-amd64.tar.gz"
-      sha256 "52e06f8c2f794781fb92b105e1f56416f42a3871d88af74e398eb252723dfa71"
+      url "https://aspenx.dev/releases/0.9.1/aspenx-0.9.1-darwin-amd64.tar.gz"
+      sha256 "006eb5cf45b3a6eada08d7d203d0560aba334c307ce00a5e1dc7ff8ca2781101"
     end
   end
 
